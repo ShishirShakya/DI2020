@@ -1,4 +1,4 @@
-SubWayPlot
+Interindustry Connectedness with SubWayPlot and Circular Plot
 ================
 Shishir Shakya
 
