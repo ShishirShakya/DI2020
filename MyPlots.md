@@ -90,6 +90,15 @@ outgen <- function(val){
 }
 ```
 
+I am using the data from the Bureau of Economics Analysis dataset. This data set utilizes big data of all inter-industry transactions in the US. However, for the sake of simplicity, I am working on a prototype that has only 15 aggregated industry. It can easily be expanded to 420 different industry disaggregation.
+
+This data is indeed reshaped in a wide-format; if we would develop a tidy version of this data, it can be a large size. Therefore, rather than data size, I will focus on data interpretation.
+
+The key idea is to map the inter-industry interconnections and rank theses industry based on their interconnectedness. I will first show a simple 15 industry by 15 industry heat maps. Higher intensity of heat in this map shows a higher interconnectedness between the two sectors.
+
+After this plot, I will show how each industry's interconnectedness rank would change over time. This temporal evolution ranking is called the subway plot. Higher the rank will represent the more connected industry. This interconnectedness is known as backward linkages in the input-output literature.
+
+
 Sub Way Plot
 ============
 
